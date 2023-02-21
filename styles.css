@@ -6,6 +6,9 @@
    div.form {
     scale:1;
    }
+   .left {
+    background-size: auto 100%;
+   }
 }
 
 .container {
@@ -111,7 +114,7 @@ a {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("/public/Background\ Image.png");
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("/public/Background\ Image.png");
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: auto;
     background-position:50%;
  }
 
